@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="179" height="37" viewBox="0 0 179 37">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 50px;
+        fill: #fff;
+        text-anchor: end;
+        font-family: "Avenir Next";
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <text id="ABOUT" class="cls-1" x="178.877" y="35.814"><tspan x="178.877">ABOUT</tspan></text>
+</svg>

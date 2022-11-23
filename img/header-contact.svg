@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="321" height="37" viewBox="0 0 321 37">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 50px;
+        fill: #fff;
+        text-anchor: end;
+        font-family: "Avenir Next";
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <text id="CONTACT_US" data-name="CONTACT US" class="cls-1" x="322.878" y="35.814"><tspan x="322.878">CONTACT US</tspan></text>
+</svg>
