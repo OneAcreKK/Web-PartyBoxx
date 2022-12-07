@@ -25,6 +25,11 @@ header a{
 header a img{
   height: 11px;
 }
+@media screen and (max-width: 767px){
+  header a img{
+    height: 7px;
+  }
+}
 main{
   max-width: 1200px;
   width: 90%;
@@ -42,4 +47,36 @@ main p{
 main h2{
   font-size: 24px;
   margin: 24px 0 0 0;
+}
+footer{
+  height: 100px;
+  width: 100vw;
+  background-color: #2e2f36;
+}
+footer .list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .list a{
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 1vw;
+  font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "Noto Sans JP", sans-serif;
+  margin: 23px 20px 0px;
+  text-align: center;
+}
+footer .list a p{
+  margin: 0;
+}
+footer .copyright{
+  font-size: 12px;
+  font-family: 'M PLUS 1p', sans-serif;
+  margin: 20px 0 0 0;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.yahoku{
+  height: 50px;
 }

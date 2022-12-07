@@ -17,8 +17,8 @@ body>img{
   position: relative;
   margin: 0 auto;
   width: 100vw;
-  overflow-x: hidden;
   height: auto;
+  overflow-x: hidden;
 }
 #main > div{
   width: 100vw;
@@ -29,18 +29,14 @@ body>img{
 }
 #main > div > img{
   width: 100%;
+  z-index: 2;
 }
 #main > div:nth-child(1){
-  margin: 0 auto;
-  padding-top: 20%;
-  width: 45%;
-}
-#main > div:nth-child(2){
-  margin-top: 3%;
+  margin-top: 40%;
   margin-right: -5%;
-  width: 75vw;
+  width: 80vw;
 }
-#main > div:nth-child(2) div{
+#main > div:nth-child(1) div{
   width: 200vw;
   transform: rotate(-15deg);
   background-color: #000000;
@@ -52,38 +48,96 @@ body>img{
   top: -2vw;
   transform-origin: center;
 }
-#main > div:nth-child(3){
+#main > div:nth-child(2){
   margin-top: 12.5%;
   margin-left: -5%;
   width: 75vw;
 }
-#main > div:nth-child(3) div{
+#main > div:nth-child(2) div{
   width: 200vw;
   transform: rotate(15deg);
   background-color: #000000;
   content: "";
   height: 42vw;
-  left: 0;
+  left: -50vw;
   z-index: -1;
   position: absolute;
-  top: 20vw;
+  top: 3vw;
   transform-origin: center;
 }
-#main > div:nth-child(4){
+#main > div:nth-child(3){
   margin-top: 12.5%;
-  width: 40%;
+  width: 45vw;
+  left: 0;
+  z-index: -5;
+  height: 62vw;
+  margin-top: -42vw;
+  left: -40vw;
+}
+#main > div:nth-child(4){
+  margin-top: 1.5%;
+  width: 45vw;
 }
   #main > div:nth-child(4) div{
     width: 200vw;
     transform: rotate(-15deg);
-    background-color: #FFFFFF;
+    background-color: #FFFF00;
     content: "";
     height: 42vw;
     left: -80vw;
     z-index: -1;
     position: absolute;
-    top: -2vw;
+    top: 0vw;
     transform-origin: center;
+  }
+  #main > div:nth-child(5){
+    margin-top: 22.5%;
+    width: 100%;
+  }
+  #main > div:nth-child(5) .title{
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    height: 7.5vw;
+    max-height: 48px;
+  }
+  #main > div:nth-child(5) .flow{
+    display: block;
+    margin: 30px auto 0;
+    width: 90%;
+    z-index: 1;
+    margin-bottom: -10vw;
+  }
+  #main > div:nth-child(5) div{
+    position: relative;
+    z-index: -1;
+    width: 100vw;
+    background-color: #2e2f36;
+    height: min-content;
+  }
+  #main > div:nth-child(5) div img{
+    display: block;
+    margin: 0 auto;
+    padding: 13vw 0 7vw 0;
+    width: 80vw;
+    max-width: 511px;
+  }
+  #main > div:nth-child(6){
+    background-color: #2e2f36;
+  }
+  #main > div:nth-child(6) .title{
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    height: 7.5vw;
+    max-height: 48px;
+  }
+  #main > div:nth-child(6) p{
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 3vh;
+    margin: 0;
+    padding: 1rem 0 4rem 0;
   }
 header{
   display: flex;

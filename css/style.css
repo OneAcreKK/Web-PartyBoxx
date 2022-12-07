@@ -9,6 +9,9 @@ body{
   background-size: auto 83.6%,auto 68.5%;
   background-repeat: no-repeat;
 }
+*{
+  transition: all .3s;
+}
 .bg{
   z-index: 100;
   position: absolute;
@@ -156,19 +159,19 @@ header a img{
   font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "Noto Sans JP", sans-serif;
   width: auto;
 }
-.url img{
+.url>img{
   width: 33%;
   min-width: 240px;
   margin: 4% auto 0 auto;
   display: block;
 }
-.url a{
+.url>a{
   text-decoration: none;
   color: #FFFFFF;
   text-align: center;
   display: block;
 }
-.url a p{
+.url>a p{
   margin: 13px 0;
   font-size: 18px;
   display: inline-block;
@@ -176,6 +179,71 @@ header a img{
   padding: 2px 0;
   font-weight: bold;
   border: solid #FFFFFF 2px;
+}
+.url .faq > div{
+  background-color: #ff00aa;
+  min-width: 300px;
+  max-width: 1020px;
+  width: 90%;
+  margin: 20px auto;
+  border-radius: 10px;
+  height: 60px;
+  overflow: hidden;
+}
+.faq img{
+  width: 30px;
+  margin: 0 10px;
+}
+.url .faq > div[data-state='open'] {
+  height: 100% !important;
+}
+.url .faq > div[data-state='open'] .faq-button{
+  transform-origin: center;
+  transform: rotate(45deg);
+}
+/* .url .faq > div[data-state='close'] {
+  height: 60px;
+} */
+.url .faq>div>div{
+  display: flex;
+  align-items: center;
+  height: min-content;
+}
+.faq a {
+  display: block;
+  color: #000000;
+}
+.url .faq div div p{
+  width: calc(100% - 10px);
+  margin: 0;
+  padding-left: 10px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.faq-button{
+  width: 30px;
+  height: 30px;
+  padding: 15px;
+  position: relative;
+}
+.faq-button div{
+  border-radius: 3px;
+  position: absolute;
+  background-color: #FFFFFF;
+}
+.faq-button :nth-child(1){
+  width: 30px;
+  height: 6px;
+  margin: 12px 0;
+}
+.faq-button :nth-child(2){
+  width: 6px;
+  height: 30px;
+  margin: 0 12px;
+}
+.url .faq>div>p{
+  margin: 10px;
+  margin-left: 60px;
 }
 .url .txt{
   text-align: center;
@@ -212,3 +280,4 @@ footer .copyright{
   color: #FFFFFF;
   text-align: center;
 }
+

@@ -1,13 +1,8 @@
 body{
   margin: 0;
   background-color: black;
-  /*background-image: url(../img/bg-2.png),url(../img/bg.png);
-  background-position: 40.6% 87%,37% 61.4%;
-  background-size: 231.8%,191.5%;
-  background-image: url(../img/bg-2.png),url(../img/bg.png);
-  background-position: 40.6% 95%,37% 61.4%;
-  background-size: auto 83.6%,auto 68.5%;
-  background-repeat: no-repeat; */
+  position: relative;
+  padding-bottom: 100px;
 }
 header{
   display: flex;
@@ -25,30 +20,15 @@ header a{
 header a img{
   height: 11px;
 }
-@media screen and (max-width: 767px){
-  header a img{
-    height: 7px;
-  }
-}
 main{
-  max-width: 1200px;
-  width: 90%;
-  margin: 0 auto;
-  color: #FFFFFF;
-}
-main h1{
-  font-size: 32px;
-  margin: 32px 0 0 0;
-}
-main p{
-  font-size: 16px;
-  margin: 8px 0 0 0;
-}
-main h2{
-  font-size: 24px;
-  margin: 24px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
   height: 100px;
   width: 100vw;
   background-color: #2e2f36;
@@ -77,6 +57,3 @@ footer .copyright{
   text-align: center;
 }
 
-.yahoku{
-  height: 50px;
-}
