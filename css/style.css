@@ -126,7 +126,7 @@ header a img{
   position: relative;
 }
 .app .screen img{
-  width: 45.3%;
+  width: 50.3%;
   max-width: 30vw;
   position: absolute;
   filter: drop-shadow(0 0 16px #FF0078);
